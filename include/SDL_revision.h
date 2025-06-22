@@ -1,2 +1,6 @@
-#define SDL_REVISION "hg-14456:35af58ecc90f"
-#define SDL_REVISION_NUMBER 14456
+#ifdef SDL_VENDOR_INFO
+#define SDL_REVISION SDL_VENDOR_INFO
+#else
+#define SDL_REVISION ""
+#endif
+#define SDL_REVISION_NUMBER 0
