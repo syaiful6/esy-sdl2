@@ -1,13 +1,17 @@
-[![Build Status](https://dev.azure.com/revery-ui/revery/_apis/build/status/revery-ui.esy-sdl2?branchName=master)](https://dev.azure.com/revery-ui/revery/_build/latest?definitionId=12&branchName=master)
 
-# esy-sdl2
-Esy-enabled build for [SDL2](https://www.libsdl.org/)
+# Simple DirectMedia Layer (SDL) Version 2.0
 
-# Modifications
+https://www.libsdl.org/
 
-A patch by xenotron007 was applied to enable Windows IME candidate list to be shown:
-https://bugzilla.libsdl.org/attachment.cgi?id=3604&action=diff
+Simple DirectMedia Layer is a cross-platform development library designed
+to provide low level access to audio, keyboard, mouse, joystick, and graphics
+hardware via OpenGL and Direct3D. It is used by video playback software,
+emulators, and popular games including Valve's award winning catalog
+and many Humble Bundle games.
 
-# License
+More extensive documentation is available in the docs directory, starting
+with README.md
 
-[SDL License](./LICENSE)
+Enjoy!
+
+Sam Lantinga (slouken@libsdl.org)
